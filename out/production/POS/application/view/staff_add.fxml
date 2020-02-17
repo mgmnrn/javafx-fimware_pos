@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import sample.MaskTextField?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="425.0" style="-fx-background-color: #455A64;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.StaffAddController">
+   <children>
+      <VBox fx:id="boxPane" layoutX="26.0" layoutY="7.0" prefHeight="499.0" prefWidth="407.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="90.0" prefWidth="200.0">
+               <children>
+                  <Label text="Ажилтан бүртгэх">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Ажилчины код" textFill="#f5eded" />
+                  <MaskTextField fx:id="staffIdTF" mask="NNNN" prefHeight="25.0" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Нэвтрэх нэр" textFill="#f2e5e5" />
+                  <MaskTextField fx:id="usernameTF" mask="*************" prefHeight="25.0" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Овог" textFill="#ebe3e3" />
+                  <MaskTextField fx:id="lastNameTF" mask="************" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Нэр" textFill="#f8f7f7" />
+                  <MaskTextField fx:id="firstNameTF" mask="************" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Регистерийн дугаар" textFill="#e1d6d6" />
+                  <MaskTextField fx:id="registerTF" mask="**NNNNNNNN" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Мэйл хаяг" textFill="#eee8e8" />
+                  <MaskTextField fx:id="emailTF" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefWidth="188.0" text="Утасны дугаар" textFill="#e8e4e4" />
+                  <MaskTextField fx:id="phoneTF" mask="NNNNNNNN" prefWidth="169.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="188.0" text="Зураг" textFill="#fff2f2" />
+                  <JFXButton fx:id="imageChooserBtn" prefWidth="169.0" style="-fx-background-color: white;" text="Сонгох">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="HAND_ALT_UP" />
+                     </graphic></JFXButton>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <PasswordField fx:id="confirmPassword" alignment="CENTER" promptText="Нууц үгээ оруулна уу" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="staffRegister" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Бүртгэх" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

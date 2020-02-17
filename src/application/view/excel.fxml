@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="534.0" style="-fx-background-color: #07E6F3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ExcelController">
+   <children>
+      <ImageView fitHeight="144.0" fitWidth="202.0" layoutX="43.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resource/Images/logo/import.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="144.0" fitWidth="202.0" layoutX="335.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Resource/Images/logo/export.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="excelImport" layoutX="43.0" layoutY="190.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: #1C2A18;" text="Excel /Import/" textFill="#f2e6e6" />
+      <Button fx:id="excelExport" layoutX="335.0" layoutY="190.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: #3BFE10;" text="Excel /Export/" />
+   </children>
+</AnchorPane>
