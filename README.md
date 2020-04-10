@@ -1,11 +1,8 @@
-# javafx-fimware_pos
 # Дэлгүүрийн пос программ
-
 
 **Нэвтрэх хэсэг**
 ![image](https://user-images.githubusercontent.com/47672783/79009878-32bede80-7b93-11ea-8684-0541824ba03a.PNG) </br>
 Худалдагч эсвэл менежер өөрийн нэвтрэх нэр, нууц үгийг ашиглан системд нэвтэх хэсэг.
-
 
 **Кассын үндсэн хэсэг**
 ![image](https://user-images.githubusercontent.com/47672783/79010016-8d583a80-7b93-11ea-959d-9eb6ac67157e.PNG) </br>
