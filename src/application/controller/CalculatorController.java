@@ -158,7 +158,7 @@ public class CalculatorController {
     }
 
     private void printOrder() {
-        //BridgePosAPI.sendData();
+        BridgePosAPI.sendData();
         String result = BridgePosAPI.put(Order.toJSON().toString());
         JSONObject jsonObject = new JSONObject(result);
         if (jsonObject.getBoolean("success")) {

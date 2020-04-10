@@ -67,7 +67,6 @@ public class ProductContainer {
                 } else if (c.wasUpdated()) {
                     for (int i = c.getFrom(); i < c.getTo(); ++i) {
                         DAO.updateProduct(products.get(i));
-                        System.out.println(products.get(i) + " irlee");
                     }
                 }
             }
