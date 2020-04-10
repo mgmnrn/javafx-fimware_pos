@@ -72,9 +72,9 @@ Ebarimt -ийн PosApi - ийг ашиглан хэрэглэгчийн авса
 ## Програм ажиллахад шаардагдах нэмэлт сан болон програмууд: </br>
 PosAPI Сангийн файлууд энэхүү төслийн /posApi хавтас дотор бүгд байгаа. Та энэхүү төсөл /project/ татаж авсны дараа /posApi файлын замыг System Variables path дотор зааж өгөх хэргтэй. Эсвэл working directory буюу програм эхэлж байгаа main.class, .jar, .exe файлын хажууд хуулж өгж мөн болно.
 
-Windows орчинд PosAPI 2.1 санг ажиллуулахдаа “Visual C++ Redistributable Package for Visual Studio 2013” програмыг заавал суулгасан байна. Учир нь PosAPI.dll болон ашиглагдаж буй нэмэлт сангууд нь Visual Studio 2013 C++ хэл ашиглан бичигдсэн байдаг тул заавал суусан байх ёстой.
-Татах холбоос: https://www.microsoft.com/en-us/download/details.aspx?id=40784
+Windows орчинд PosAPI 2.1 санг ажиллуулахдаа “Visual C++ Redistributable Package for Visual Studio 2013” програмыг заавал суулгасан байна. Учир нь PosAPI.dll болон ашиглагдаж буй нэмэлт сангууд нь Visual Studio 2013 C++ хэл ашиглан бичигдсэн байдаг тул заавал суусан байх ёстой. </br>
+Татах холбоос: https://www.microsoft.com/en-us/download/details.aspx?id=40784 </br>
 
-Мөн OpenSSL v1.0.2d Light заавал суулгасан байна.
-Татах холбоос: https://slproweb.com/products/Win32OpenSSL.html
+Мөн OpenSSL v1.0.2d Light заавал суулгасан байна. </br>
+Татах холбоос: https://slproweb.com/products/Win32OpenSSL.html </br>
 
